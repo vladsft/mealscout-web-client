@@ -1,1 +1,1 @@
-# mealscout-web-server
+# mealscout-web-client
