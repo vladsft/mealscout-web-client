@@ -1,0 +1,7 @@
+POST http://localhost:3002/planner/addToCart
+Content-Type: application/json
+Accept: application/json
+
+{
+    "session": "29"
+}

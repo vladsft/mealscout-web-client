@@ -1,0 +1,356 @@
+.App {
+  /* text-align: center; */
+  padding: 0px;
+}
+
+.navbar {
+  background-color: #f3daa2;
+  padding: 10px 50px;
+}
+
+.row {
+  margin: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Bungee");
+.navbar-brand {
+  font-family: "Bungee";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 43px;
+  color: #f79c55;
+  text-shadow: 0px 4px 0px #ffffff;
+}
+
+.navbar :hover {
+  color: #312a3c;
+}
+
+.nav-item {
+  padding: 0px 10px;
+}
+
+.nav-item :hover {
+  font-weight: 500;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+  color: #312a3c;
+}
+
+.header {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 65px;
+  color: #312a3c;
+}
+
+.image_preview_container {
+  mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, transparent 100%);
+}
+
+.homepage-heading {
+  background:linear-gradient(to right, rgba(243,218,162,1), rgba(243,218,162,0.3)), url(group-cooking.jpg);
+  background-color: #f3daa2;
+  padding-left: 50px;
+  min-height: 500px;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.homepage-image {
+  position: absolute;
+  right: 0px;
+  object-fit: scale-down;
+}
+
+.homepage-user {
+  /* background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(cook-with-friends.jpg);
+  min-height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; */
+  background-color: #f3daa2;
+  padding: 20px 50px 0px 50px;
+
+}
+
+.homepage-icon {
+  display: block;
+height: 80px;
+margin-bottom: 30px;
+margin-left: auto;
+  margin-right: auto;
+}
+
+.quote-box {
+  font-size: 24px;
+  padding: 50px;
+  font-weight: 500;
+}
+
+.quote {
+  font-size: 40px;
+}
+
+.user-img{
+  object-fit: scale-down;
+}
+
+/* .homepage-how .header {
+  color: white;
+} */
+
+.page-heading {
+  background-color: #f3daa2;
+  padding: 30px 50px;
+}
+
+.page-content {
+  font-family: "Open Sans", sans-serif;
+  padding: 30px 50px;
+  color: #312a3c;
+}
+
+.recipes-page {
+  padding-bottom: 100px;
+}
+
+h5 {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.recipes-list {
+  padding: 0px 50px;
+}
+
+.recipe-card {
+  background: #f3daa2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 350px;
+  margin-bottom: 25px;
+}
+
+.recipe-card:hover {
+  background-color: #c9b384;
+}
+
+.counter-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #f79c55;
+  width: fit-content;
+}
+
+.card-image {
+  padding: 20px;
+  height: 200px;
+  object-fit: scale-down;
+}
+
+.card-image:hover {
+  cursor: pointer;
+}
+
+.recipe-price {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.recipe-diff {
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 170px;
+  text-align: center;
+}
+
+.progress {
+  height: 12px;
+}
+
+.progress-bar {
+  text-align: center;
+}
+
+.orange-btn {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #f79c55;
+  border-radius: 40px;
+  border: none;
+  padding: 4px 30px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  width: fit-content;
+  margin: 10px;
+}
+
+.orange-btn:hover {
+  background: #ffffff;
+  color: #f79c55;
+}
+
+.circle-btn {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #f79c55;
+  width: 30px !important;
+  height: 30px !important;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.circle-btn:hover {
+  background: #ffffff;
+  color: #f79c55;
+}
+
+.add-cart-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.add-calendar-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+}
+
+.homepage-btn {
+  margin: 30px 0px;
+  font-size: 18px;
+}
+
+.checkout-btn {
+  margin-bottom: 10px;
+}
+
+.checkout-price {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.recipe-header {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  color: #312a3c;
+}
+
+.cartItem-header {
+  border-bottom: double;
+}
+
+.cartItem-image {
+  height: 150px;
+  object-fit: scale-down;
+}
+
+.cartItem-quantity {
+  padding: 10px 30px;
+  margin: 0px 10px;
+  background-color: #f3daa2;
+  font-size: 16px;
+  color: black;
+}
+
+.cart-list {
+  margin: 20px 0px;
+}
+
+.test {
+  height: 200px;
+  background-color: antiquewhite;
+}
+
+.collapse-content {
+  margin-top: 10px;
+}
+
+.collapse-content.collapsed {
+  display: none;
+}
+
+.collapsed-content.expanded {
+  display: block;
+}
+
+.planner .list-group-item {
+  height: 70px;
+}
+
+.day-list .list-group-item {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.toggle-icon {
+  margin-left: 10px;
+}
+
+.tooltip-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 3px 3px;
+  border-radius: 3px;
+  font-size: 10px;
+
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+}
+
+.add-to-planner-form {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  position: absolute;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 0px 20px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 15px;
+}
+
+.add-to-planner-form .orange-btn {
+  font-size: 14px;
+}
+
+.add-to-planner-form .input {
+  margin: 15px 0px;
+}
+
+.add-to-planner-form .close-badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
